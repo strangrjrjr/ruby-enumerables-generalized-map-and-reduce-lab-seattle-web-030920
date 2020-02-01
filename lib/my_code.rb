@@ -17,6 +17,6 @@ def reduce(source, start = nil)
     result = source[0]
     i = 1
   end
-  sum = sum()
+  sum = yield(sum, array[i])
   yield(source)
 end
