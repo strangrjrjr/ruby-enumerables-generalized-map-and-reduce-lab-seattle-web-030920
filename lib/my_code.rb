@@ -9,7 +9,7 @@ def map(source, start = 0)
   return result
 end
 
-def reduce(source)
+def reduce(source, start = nil)
   
   yield(source)
 end
