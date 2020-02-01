@@ -14,6 +14,7 @@ def reduce(source, start = nil)
     result = start
     i = 0
   else
-    
+    result = source[0]
+    i = 1
   yield(source)
 end
