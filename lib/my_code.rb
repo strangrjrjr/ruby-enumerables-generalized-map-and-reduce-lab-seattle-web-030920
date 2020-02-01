@@ -3,7 +3,8 @@ def map(source, start = 0)
   result = []
   i = start
   while i < source.length 
-    yield(source[i])
+    result.push(yield(source[i]))
+    i += 1
   end
 end
 
