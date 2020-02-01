@@ -4,5 +4,5 @@ def map(source)
 end
 
 def reduce(source)
-  
+  yield(source)
 end
