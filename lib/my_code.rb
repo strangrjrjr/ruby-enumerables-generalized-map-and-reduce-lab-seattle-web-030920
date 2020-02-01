@@ -10,6 +10,7 @@ def map(source, start = 0)
 end
 
 def reduce(source, start = nil)
-  
+  if start
+    
   yield(source)
 end
